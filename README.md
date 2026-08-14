@@ -4,7 +4,7 @@
 
 How many samples are needed to learn a classifier whose risk is robust to a forward Kullback-Leibler ball? We determine the distribution-free answer for zero-one loss. If the ball has radius $\rho$ and the target robust excess is $\varepsilon$, define $b_\rho(\varepsilon)$ by $\mathrm{kl}(\varepsilon\\|b_\rho(\varepsilon))=\rho$. For a class of VC dimension $d$, the realizable sample complexity is $\Theta((d+\log(1/\delta))/b_\rho(\varepsilon))$, while the agnostic complexity is, up to logarithmic factors,
 
-$$\Theta\\!\left((d+\log(1/\delta))\max\\{\varepsilon^{-2},\,b_\rho(\varepsilon)^{-1}\\}\right).$$
+$$\Theta\\!\left((d+\log(1/\delta))\max\\{\varepsilon^{-2},\\,b_\rho(\varepsilon)^{-1}\\}\right).$$
 
 The inverse binary-KL scale satisfies $b_\rho(\varepsilon)\asymp\varepsilon e^{-\rho/\varepsilon}$. Thus any fixed positive radius changes both learning curves from polynomial decay to $\rho/\log n$. The agnostic transition occurs at $\rho\asymp\varepsilon\log(1/\varepsilon)$.
 
@@ -22,7 +22,7 @@ The realizable upper bound is attained by an optimal ordinary PAC learner, and t
 
 **Proposition (Exponential inverse scale).** For every $0<q<1$ and $\rho\geq 0$,
 
-$$e^{-1}q\,e^{-\rho/q} \leq B_\rho(q) \leq q\,e^{-\rho/q}.$$
+$$e^{-1}q\\,e^{-\rho/q} \leq B_\rho(q) \leq q\\,e^{-\rho/q}.$$
 
 This is what converts polynomial learning curves into logarithmic ones: at any fixed positive radius the effective accuracy shrinks exponentially, so the achievable excess risk after $n$ samples decays like $\rho/\log n$ rather than a power of $n$.
 

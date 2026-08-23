@@ -44,7 +44,5 @@ distributionally robust learning, PAC learning, VC dimension, Kullback-Leibler d
 
 ## Files
 
-- `main_old_2026-08-07.pdf`, the paper as first published, with its OpenTimestamps proof `main_old_2026-08-07.pdf.ots`.
-- `supplement_old_2026-08-07.zip`, the supplement as first published, with its OpenTimestamps proof `supplement_old_2026-08-07.zip.ots`.
-- source: `iclr2027_conference.bst`, `iclr2027_conference.sty`, `main.tex`, `references.bib`.
-- also: `kl_phase.pdf`.
+- source: `iclr2027_conference.bst`, `iclr2027_conference.sty`, `main_2026-08-07.tex`, `references.bib`.
+- also: `kl_phase.pdf`, `main_2026-08-07.pdf`, `supplement_2026-08-07.zip`.
